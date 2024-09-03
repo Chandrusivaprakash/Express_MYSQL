@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+  }
+.Table{
+    display: flex;
+    justify-content: end;
+}
+  table {
+    width: 80%;
+    border-collapse: collapse;
+   
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.action-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+}
+.action-links a:hover {
+    text-decoration: underline;
+}
+
+/* public/:
+
+Holds static files that are served directly to the client (e.g., HTML, CSS, JavaScript, images).
+css/: Stores CSS files.
+js/: Stores client-side JavaScript files.
+images/: Stores image files. */

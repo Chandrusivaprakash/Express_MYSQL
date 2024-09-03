@@ -1,0 +1,21 @@
+<h1>Update User</h1>
+{{#each rows}}
+<form method="post" action="/edituser/{{this.ID}}">
+    <div>
+        <label>Name</label>
+        <input placeholder="Name" name="name" value={{this.NAME}}>
+    </div>
+    <div>
+        <label>Age</label>
+        <input placeholder="Age" name="age" value={{this.AGE}}>
+    </div>
+    <div>
+        <label>CITY</label>
+        <input placeholder="City" name="city" value={{this.CITY}}>
+    </div>
+      
+    <button type="submit">Update</button>
+    <button><a href="/">view all</a></button>
+</form>
+{{/each}}
+
